@@ -1,1 +1,4 @@
 secret-stuff.txt filter=git-crypt diff=git-crypt
+secret-after-init.txt filter=git-crypt diff=git-crypt
+*.key filter=git-crypt diff=git-crypt
+secretdir/** filter=git-crypt diff=git-crypt
